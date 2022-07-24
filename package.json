@@ -6,13 +6,16 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "deploy": "netlify deploy --prod"
   },
   "devDependencies": {
+    "@astrojs/markdown-remark": "^0.12.0",
     "@astrojs/svelte": "^0.1.4",
     "@astrojs/tailwind": "^0.2.1",
     "@tailwindcss/typography": "^0.5.2",
     "astro": "^1.0.0-beta.44",
+    "netlify-cli": "^10.11.1",
     "prettier-plugin-tailwindcss": "^0.1.11"
   },
   "dependencies": {
